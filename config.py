@@ -40,7 +40,7 @@ class Config:
     tushare_token: Optional[str] = None
     
     # === AI 分析配置 ===
-    gemini_api_key: Optional[str] = None
+    gemini_api_key: Optional[str] = AIzaSyB7z5J7qfVLP0GGpzK52rOHfJK_mYJj9Dg
     gemini_model: str = "gemini-3-flash-preview"  # 主模型
     gemini_model_fallback: str = "gemini-2.5-flash"  # 备选模型
     
@@ -64,7 +64,7 @@ class Config:
     wechat_webhook_url: Optional[str] = None
     
     # 飞书 Webhook
-    feishu_webhook_url: Optional[str] = None
+    feishu_webhook_url: Optional[str] = https://www.feishu.cn/flow/api/trigger-webhook/9309c9bbce0d41e5e39199391d664a72
     
     # Telegram 配置（需要同时配置 Bot Token 和 Chat ID）
     telegram_bot_token: Optional[str] = None  # Bot Token（@BotFather 获取）
